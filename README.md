@@ -1,2 +1,2 @@
-# php_router
+# PHP Routing Class
 A simple PHP routing class.
