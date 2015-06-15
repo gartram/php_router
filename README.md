@@ -34,7 +34,7 @@ $router->addRoute('GET /archive-<year>-<month>', function($route, $params) {
 
 ##Run the Router
 
-Use the following code to call the router with the current route (check the .htaccess file in the code listing for the path rewriting).
+Use the following code to call the router with the current route.
 
 ```php
 $path = '/' . (array_key_exists('query', $_GET) ? $_GET['query'] : '');
