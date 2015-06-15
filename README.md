@@ -1,15 +1,13 @@
 # PHP Routing Class
 A simple PHP routing class.
 
-##Usage
-
-###Instantiate
+##Instantiate
 
 ```php
 $router = new Router;
 ```
 
-###Add Routes
+##Add Routes
 
 Add a route to **/index**, class `Controller` will be instantiated and its method `index` called.
 
@@ -34,7 +32,7 @@ $router->addRoute('GET /archive-<year>-<month>', function($route, $params) {
 });
 ```
 
-###Run the Router
+##Run the Router
 
 Use the following code to call the router with the current route (check the .htaccess file in the code listing for the path rewriting).
 
