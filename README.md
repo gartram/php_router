@@ -21,7 +21,7 @@ Add a route to **/about**, with existing class `$cls` and its method `about`.
 $router->addRoute('GET /about', array($cls, 'about'));
 ```
 
-Add a route to **/contact**, with an inline function and parameters.
+Add a route to **/archive-<year>-<month>**, with an inline function and parameters.
 
 ```php
 $router->addRoute('GET /archive-<year>-<month>', function($route, $params) {
